@@ -7,7 +7,7 @@ Payments page of the website is integrated with the 'Donate Now' button of Razor
 <h3>Visit:</h3>
 
 <b>All India Bank</b> website at:<br>
-<a href="https://yogeshwadekars.000webhostapp.com/Flood-Money-Donation/index.php">AADHAR SOCIAL FOUNDATION</a>
+<a href="https://yogeshwadekars.000webhostapp.com/Flood-Money-Donation/index.html">AADHAR SOCIAL FOUNDATION</a>
 <br><br>
 I have used :<br>
 
