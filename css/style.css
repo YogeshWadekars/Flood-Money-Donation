@@ -1,0 +1,235 @@
+
+
+/***** body *****/
+
+.about{
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(rgb(209, 255, 182),rgb(255, 214, 220),rgba(248, 248, 118, 0.993));
+}
+
+h2{
+    color: crimson;
+    font-family:Tahoma, Verdana, sans-serif 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    color: rgb(60, 255, 174);
+    font-size: 18px;
+}
+a:hover{
+    color: rgb(255, 0, 179);
+}
+
+/***** navigation ******/
+
+.nav_color{
+    padding: 10px 0px;
+}
+
+.navigation{
+    display: inline-block;
+}
+.nav_name{
+    float: left;
+    font-size: 30px;
+    margin: 0px 20px;
+}
+.fa-heartbeat{
+    float: left;
+    font-size: 40px;
+}
+
+
+
+/***** img slide show *****/
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+.caption_btn{
+    font-size: 30px;
+}
+
+.item{
+    height: 700px;
+}
+
+.img_slide{
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+/***** donate box *****/
+
+
+.donate{
+    margin-top: 0px;
+    display: block;
+    position: relative;
+}
+
+
+.donate_pic{
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+
+.donate_btn{
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    padding: 3% 5%;
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+
+/***** about us page *****/
+
+
+.img_about{
+    background-image: url('../img/community.jpg');
+    background-size: cover;
+    margin-top: -20px;
+    height: 600px;
+    width: 100%;
+}
+
+.about_name{
+    padding-top: 60px;
+    font-size: 42px;
+    font-family: cursive;
+    color: rgb(255, 206, 214);
+}
+
+
+/***** footer *****/
+
+footer,.nav_color{
+    background-color: rgb(1, 94, 29);
+    color: aliceblue;
+}
+
+
+.foot{
+    padding : 20px 0px;
+}
+
+.to_list_header{
+    margin-left: 40px;
+    color: rgb(255, 251, 0);
+}
+.contact{
+    color: rgb(255, 251, 0);
+}
+.to_links{
+    list-style: none;
+}
+
+.author{
+    padding: 10px;
+    background-color: rgb(0, 61, 10);
+    color: rgb(207, 207, 207);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.social{
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+}
+
+
+
+@media(max-width:768px){
+
+    h2{
+        font-size: 20px;
+    }
+    a{
+        font-size: 16px;
+    }
+    .about{
+        font-size: 14px;
+    }
+
+
+/***** donate box *****/
+    
+    .donate_pic{
+        height: 300px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .donate_btn{
+        top: 73%;
+        left: 18%;
+        padding: 3% 10%;
+
+    }
+
+
+/***** img slide show *****/
+
+.item{
+    height: 380px;
+}
+
+.caption_btn{
+    font-size: 20px;
+}
+h1{
+    font-size: 25px;
+}
+.carousel-caption{
+    margin: 0px -52px;
+    margin-top: -20px;
+    background-color: rgb(26, 77, 51);
+}
+.carousel-inner {
+    margin-bottom: 20px;
+}
+.carousel-control{
+    margin-bottom: 0px;
+}
+
+
+/***** about us page *****/
+
+    .img_about{
+        background-size: fill;
+        height: 300px;
+        width: 100%;
+    }
+
+    .about_name{
+        padding-top: 30px;
+        font-size: 25px;
+    }
+
+
+/***** footer *****/
+
+    footer{
+        text-align: center;
+    }
+
+    .to_list_header{
+        margin-left: 0px;
+    }
+    ul{
+        margin-left: -50px;
+    }
+
+}
