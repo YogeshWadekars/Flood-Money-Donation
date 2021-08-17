@@ -1,4 +1,4 @@
-# Foold-Money-Donation
+# Flood-Money-Donation
 This is the website made under the task given by 'THE SPARKS FOUNDATION', During the Graduate Rotational Internship Program (GRIP).
 
 I have made the Social Foundation's Money Donation website for helping peoples in the flood areas, named as <b>"AADHAR SOCIAL FOUNDATION"</b>.<br>
